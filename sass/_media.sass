@@ -1,0 +1,215 @@
+@media (max-width:1200px)
+	.menu .menu_item
+			padding-right: 20px 
+	.menu .menu_link 
+			font-size: 13px 
+	.promo .promo_header 
+		font-size: 50px 
+		padding: 0 
+	.reasons .reasons_descr
+		width: 300px 
+	.footer_wrapper > div
+		width: 20% 
+		&:nth-child(3)
+			display: flex 
+			justify-content: center
+		&:nth-child(2)
+			display: flex
+			justify-content: space-between
+		&:nth-child(1)
+			display: flex 
+			justify-content: flex-start
+
+	.footer_links
+		.footer_links_sub a
+			margin: 10px 10px
+			text-align: center
+		.footer_links_main
+			margin: 10px 10px
+
+@media (max-width:991px)
+	.menu .menu_link
+		font-size: 10px
+	.menu .menu_item
+		padding-right: 8px
+	.subheader .subheader_phone
+		font-size: 18px	
+	.subheader img
+		width: 100%
+	.subheader .subheaer_official
+		font-size: 11px
+	.subheader .subheader_btn
+		width: 155px
+		font-size: 13px
+		margin-top: 20px
+		height: 43px
+	.promo .promo_header 
+		font-size: 40px
+	.promo .promo_subheader
+		font-size: 26px
+	.promo .promo_descr
+		font-size: 15px	
+	.reasons .reasons_box
+		flex-direction: column
+	.reasons .reasons_box .reasons_subheader
+		text-align: center
+	.reasons .reasons_box .reasons_logo
+		padding: 0
+		margin-right: 0
+	.reasons .reasons_descr
+		margin-top: 20px
+	.reasons .title
+		font-size: 35px
+	
+@media (max-width:767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 40px 15px
+		z-index: 1
+		background-color: rgba(0, 0, 0, 0.9)
+		transition: 0.6s all
+		&_active
+			left: 0
+	.menu .menu_item
+		padding-right: 0
+		border: 0
+		margin: 10px 0
+	.menu .menu_link
+		font-size: 17px
+		display: block
+		margin: 0 auto
+		text-align: center
+	.choise
+		& .choise_car
+		margin: 0
+		width: 100%
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 20px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: rotate(45deg)
+	.subheader .xs-hidden
+		display: none
+	.subheader .xs-visible
+		display: block	
+	.subheader .subheader_phone	
+		display: block
+		margin-top: 10px
+		color: #ffffff
+		font-size: 16px
+		font-weight: 400
+		text-transform: uppercase	
+		text-align: center	
+	.subheader .subheader_btn
+		display: block
+		margin: 0 auto		
+		width: 200px
+		height: 40px
+		margin-top: 10px
+	.promo .promo_header 
+		font-size: 30px
+	.promo .promo_subheader
+		font-size: 20px
+	.choise .choise_car
+		width: 100%
+
+@media (max-width:575px)
+	nav
+		height: 30px
+	.footer_links
+		width: 100%
+	.subheader
+		height: 60px	
+	.subheader .subheader_btn
+		width: 110px
+		height: 22px
+		font-size: 10px
+		margin-top: 6px
+		text-align: center
+		vertical-align: center
+	.subheader .subheaer_official
+		display: none
+	.subheader .subheader_logo
+		margin-top: 16px
+	.subheader .subheader_phone
+		font-size: 12px
+		font-weight: 400
+		text-transform: uppercase
+		margin-top: 10px
+	.footer_wrapper .footer_links .footer_links_sub a
+		display: block
+		margin: 0 auto
+		font-size: 8px
+	.footer_wrapper .footer_links .footer_links_main a
+		font-size: 9px	
+	.mobile_item 
+		width: 100%
+	.promo
+		min-height: 400px
+		padding: 113px 0 35px 0
+	.promo .promo_descr
+		display: none
+	.promo .promo_header 
+		font-size: 30px
+		line-height: 40px
+	.promo .promo_subheader
+		font-size: 20px
+		padding: 0 10px
+		line-height: 30px
+	.promo .promo_btn
+		width: 210px
+		height: 50px
+		display: block
+		margin: 60px auto
+		font-size: 15px
+	.menu
+		width: 85%
+	.reasons
+		padding: 22px 0 36px 0 
+	.reasons .title
+		font-size: 15px
+	.reasons .reasons_box .reasons_text
+		width: 286px
+		margin: 0 auto
+		font-size: 16px;
+		font-weight: 400;
+	.reasons .reasons_box
+		margin: 22px 0
+
+	.reasons .reasons_box .reasons_logo
+		margin: 10px 0
+		margin-right: 0
+		width: 100px
+		height: 100px
+	.reasons .reasons_descr
+		width: 100%
+		margin-top: 27px
+	.reasons .reasons_box .reasons_subheader
+
+

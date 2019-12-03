@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?lhoxuk');
+  src:  url('fonts/icomoon.eot?lhoxuk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lhoxuk') format('truetype'),
+    url('fonts/icomoon.woff?lhoxuk') format('woff'),
+    url('fonts/icomoon.svg?lhoxuk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-f-brands:before {
+  content: "\e900";
+}
+.icon-instagram-brands:before {
+  content: "\e901";
+}
+.icon-linkedin-brands:before {
+  content: "\e902";
+}
+.icon-home3:before {
+  content: "\e903";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-play:before {
+  content: "\e912";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-floppy-disk:before {
+  content: "\e962";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-google2:before {
+  content: "\ea89";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+.icon-behance2:before {
+  content: "\eaa9";
+}
+.icon-steam:before {
+  content: "\eaac";
+}
+.icon-steam2:before {
+  content: "\eaad";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
